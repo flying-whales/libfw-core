@@ -40,7 +40,7 @@
 #		define FW_PLATFORM_MACOSX true
 #	endif
 #elif defined(__ANDROID__)
-#	define FW_PLATFORM_ANDROID
+#	define FW_PLATFORM_ANDROID true
 #elif defined(__linux) || defined(__linux__)
 #	define FW_PLATFORM_LINUX true
 #elif defined(__unix) || defined(__unix__)
