@@ -46,6 +46,7 @@
 #elif defined(__unix) || defined(__unix__)
 #	define FW_PLATFORM_UNIX true
 #else
+#	pragma warning "Could not detect platform. Your platform may be unsupported."
 #	define FW_PLATFORM_UNKNOWN true
 #endif
 
